@@ -1,6 +1,0 @@
-CREATE OR REPLACE FUNCTION dia_semana(fecha DATE)
-RETURNS TEXT AS $$
-BEGIN
-    RETURN TO_CHAR(fecha, 'Day');
-END;
-$$ LANGUAGE plpgsql;
